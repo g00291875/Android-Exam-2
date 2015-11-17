@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnReadXml"
+        android:layout_width="118dp"
+        android:layout_height="32dp"
+        android:text="Read XML data" android:layout_weight="0.13"/>
+
+    <Button
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:text="Button 2"
+            android:id="@+id/button2" android:layout_weight="0.13"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="database handler"
+            android:id="@+id/buttondb"/>
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" 
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txtMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffeeeeee"  />
+    </ScrollView>
+
+</LinearLayout>
